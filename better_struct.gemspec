@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'better-struct'
-  s.version     = '1.0'
+  s.version     = '1.0.3'
   s.date        = '2017-08-12'
   s.description = "OpenStruct with parameter enforcements"
   s.summary     = "Better than OpenStruct"
@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/better-struct.rb'
   s.license     = 'MIT'
 
-  s.add_dependency "activemodel", '~> 2.1'
+  s.add_dependency "activemodel", '>= 2.1'
 end
 
